@@ -1,23 +1,28 @@
-<!DOCTYPE html>
-{%load staticfiles%}
-<html lang="en" dir="ltr">
-  <head>
-    <meta charset="utf-8">
-    <title></title>
-    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
-    <link rel="stylesheet" href="{% static "css/demo.css"%}">
-    <link href="https://fonts.googleapis.com/css?family=Merriweather" rel="stylesheet">
-  </head>
-  <body>
-    <div class="container" align="center">
-      <div class="jumbotron">
-          <h1>Student Information</h1>
-          <p>up to date Student information</p>
-          <a class="btn btn-primary btn-lg" href="/addstudent" role="button">Add Student</a>&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp
-          <a class="btn btn-primary btn-lg" href="/liststudent" role="button">List Student</a>
-     </div>
-
-    </div>
-
-  </body>
-</html>
+body{
+  background: #E6EDF5
+  /* background-repeat: no-repeat;
+  background-size: cover; */
+}
+.container .jumbotron{
+  margin-top:200px;
+  background: orange;
+  color:white;
+  font-family: 'Merriweather', serif;
+}
+table,tr,td,thead,th{
+  border:2px solid white;
+  font-size: 30px;
+  color:#2E4053;
+  background:#48C9B0;
+  margin:auto;
+}
+thead,th{
+  border:2px solid #48C9B0;
+  font-size: 30px;
+  color:white;
+  margin:auto;
+  background:#2E4053  ;
+}
+h1{
+  text-align: center;
+}
